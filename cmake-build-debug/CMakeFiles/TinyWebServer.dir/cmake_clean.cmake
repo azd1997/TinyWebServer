@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TinyWebServer.dir/lock/locker.cpp.obj"
   "CMakeFiles/TinyWebServer.dir/main.cpp.obj"
   "TinyWebServer.exe"
   "TinyWebServer.exe.manifest"

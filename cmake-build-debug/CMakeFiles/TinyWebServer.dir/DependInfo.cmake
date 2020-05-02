@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/37419/CLionProjects/TinyWebServer/lock/locker.cpp" "C:/Users/37419/CLionProjects/TinyWebServer/cmake-build-debug/CMakeFiles/TinyWebServer.dir/lock/locker.cpp.obj"
   "C:/Users/37419/CLionProjects/TinyWebServer/main.cpp" "C:/Users/37419/CLionProjects/TinyWebServer/cmake-build-debug/CMakeFiles/TinyWebServer.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

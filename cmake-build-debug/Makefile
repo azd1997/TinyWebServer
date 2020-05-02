@@ -122,6 +122,33 @@ TinyWebServer/fast:
 	$(MAKE) -f CMakeFiles\TinyWebServer.dir\build.make CMakeFiles/TinyWebServer.dir/build
 .PHONY : TinyWebServer/fast
 
+lock/locker.obj: lock/locker.cpp.obj
+
+.PHONY : lock/locker.obj
+
+# target to build an object file
+lock/locker.cpp.obj:
+	$(MAKE) -f CMakeFiles\TinyWebServer.dir\build.make CMakeFiles/TinyWebServer.dir/lock/locker.cpp.obj
+.PHONY : lock/locker.cpp.obj
+
+lock/locker.i: lock/locker.cpp.i
+
+.PHONY : lock/locker.i
+
+# target to preprocess a source file
+lock/locker.cpp.i:
+	$(MAKE) -f CMakeFiles\TinyWebServer.dir\build.make CMakeFiles/TinyWebServer.dir/lock/locker.cpp.i
+.PHONY : lock/locker.cpp.i
+
+lock/locker.s: lock/locker.cpp.s
+
+.PHONY : lock/locker.s
+
+# target to generate assembly for a file
+lock/locker.cpp.s:
+	$(MAKE) -f CMakeFiles\TinyWebServer.dir\build.make CMakeFiles/TinyWebServer.dir/lock/locker.cpp.s
+.PHONY : lock/locker.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... TinyWebServer
 	@echo ... rebuild_cache
+	@echo ... lock/locker.obj
+	@echo ... lock/locker.i
+	@echo ... lock/locker.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

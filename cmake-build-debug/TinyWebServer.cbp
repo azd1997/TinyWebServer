@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/37419/CLionProjects/TinyWebServer/lock/locker.cpp">
+			<Option target="TinyWebServer"/>
+		</Unit>
+		<Unit filename="C:/Users/37419/CLionProjects/TinyWebServer/lock/locker.h">
+			<Option target="TinyWebServer"/>
+		</Unit>
 		<Unit filename="C:/Users/37419/CLionProjects/TinyWebServer/main.cpp">
 			<Option target="TinyWebServer"/>
 		</Unit>
